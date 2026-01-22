@@ -1,0 +1,10 @@
+numpy==2.4.1
+└── aic-sdk==2.0.0 [requires: numpy>=2.0.2]
+packaging==26.0
+└── pipdeptree==2.30.0 [requires: packaging>=25]
+pip==25.3
+└── pipdeptree==2.30.0 [requires: pip>=25.2]
+pycparser==2.23
+└── cffi==2.0.0 [requires: pycparser]
+    └── sounddevice==0.5.3 [requires: cffi>=1.0]
+python-dotenv==1.2.1

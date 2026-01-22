@@ -1,0 +1,19 @@
+
+[project]
+name = "realtime-voice-agent-pipecat-ai-coustics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "aic-sdk>=2.0.0",
+    "numpy<2.3",
+    "pipdeptree>=2.30.0",
+    "pipecat-ai[local]",
+    "pyaudio>=0.2.14",
+    "python-dotenv>=1.2.1",
+    "sounddevice>=0.5.3",
+]
+
+[tool.uv.sources]
+pipecat-ai = { git = "https://github.com/pipecat-ai/pipecat.git" }
